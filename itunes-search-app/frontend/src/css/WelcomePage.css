@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200&display=swap");
+
+/* Apply the font to the entire body */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background-image: radial-gradient(
+      circle at 34% 75%,
+      rgba(62, 159, 189, 0.06) 0%,
+      rgba(36, 141, 160, 0.06) 50%,
+      rgba(11, 11, 11, 0.06) 50%,
+      rgba(11, 11, 11, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 40% 51%,
+      rgba(12, 12, 12, 0.06) 0%,
+      rgba(43, 137, 180, 0.06) 50%,
+      rgba(242, 242, 242, 0.06) 50%,
+      rgba(242, 242, 242, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 50% 87%,
+      rgba(189, 189, 189, 0.06) 0%,
+      rgba(25, 109, 148, 0.06) 50%,
+      rgba(0, 0, 0, 0.06) 50%,
+      rgba(0, 0, 0, 0.06) 100%
+    ),
+    linear-gradient(90deg, hsl(35, 0%, 96%), hsl(35, 0%, 96%));
+}
+
+.welcome-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* Adjust as necessary */
+}
+
+.continue-btn {
+  color: white;
+  background-color: rgb(0, 145, 216);
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.continue-btn:hover {
+  background-color: rgb(31, 110, 150);
+}
